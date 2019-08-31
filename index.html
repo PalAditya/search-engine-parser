@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to Search Engine Parser’s documentation! &mdash; Search Engine Parser 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Search Engine Parser
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to Search Engine Parser’s documentation!</a></li>
+<li><a class="reference internal" href="#readme">Readme</a></li>
+<li><a class="reference internal" href="#search-engine-parser">Search Engine Parser</a><ul>
+<li><a class="reference internal" href="#id2">Installation</a></li>
+<li><a class="reference internal" href="#id3">Development</a></li>
+<li><a class="reference internal" href="#id4">Code Documentation</a></li>
+<li><a class="reference internal" href="#id5">Running the tests</a></li>
+<li><a class="reference internal" href="#id6">Usage</a><ul>
+<li><a class="reference internal" href="#id7">Code</a></li>
+<li><a class="reference internal" href="#id8">Command line</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id9">Contribution</a></li>
+<li><a class="reference internal" href="#id10">License (MIT)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Search Engine Parser</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Welcome to Search Engine Parser’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-search-engine-parser-s-documentation">
+<h1>Welcome to Search Engine Parser’s documentation!<a class="headerlink" href="#welcome-to-search-engine-parser-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="readme">
+<h1>Readme<a class="headerlink" href="#readme" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="search-engine-parser">
+<h1>Search Engine Parser<a class="headerlink" href="#search-engine-parser" title="Permalink to this headline">¶</a></h1>
+<p>Package to query popular search engines and scrape for result titles, links and descriptions.</p>
+<p>Supported Search Engines</p>
+<ul class="simple">
+<li><p>Google</p></li>
+<li><p>Yahoo</p></li>
+<li><p>Bing</p></li>
+<li><p>DuckDuckGo</p></li>
+</ul>
+<a class="reference external image-reference" href="https://www.python.org/downloads/release/python-360/"><img alt="Python 3.6" src="https://img.shields.io/badge/python-3.6-blue.svg" /></a>
+<a class="reference external image-reference" href="https://badge.fury.io/py/search-engine-parser"><img alt="PyPI version" src="https://badge.fury.io/py/search-engine-parser.png" /></a>
+<a class="reference external image-reference" href="https://travis-ci.com/bisoncorps/search-engine-parser"><img alt="Build Status" src="https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master" /></a>
+<a class="reference external image-reference" href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+<hr/><ul class="simple">
+<li><p><a class="reference external" href="#search-engine-parser">Search Engine Parser</a></p>
+<ul>
+<li><p><a class="reference external" href="#installation">Installation</a></p></li>
+<li><p><a class="reference external" href="#development">Development</a></p></li>
+<li><p><a class="reference external" href="#code-documentation">Code Documentation</a></p></li>
+<li><p><a class="reference external" href="#running-the-tests">Running the tests</a></p></li>
+<li><p><a class="reference external" href="#usage">Usage</a></p>
+<ul>
+<li><p><a class="reference external" href="#code">Code</a></p></li>
+<li><p><a class="reference external" href="#command-line">Command line</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#contribution">Contribution</a></p></li>
+<li><p><a class="reference external" href="#license-mit">License (MIT)</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="id2">
+<h2>Installation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install search-engine-parser
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>Development<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Clone the repository</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone git@github.com:bisoncorps/search-engine-parser.git
+</pre></div>
+</div>
+<p>Create virtual environment and install requirements</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkvirtualenv search_engine_parser
+pip install -r requirements-dev.txt
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Code Documentation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Found on <a class="reference external" href="https://bisoncorps.github.io/search-engine-parser">Github Pages</a></p>
+</div>
+<div class="section" id="id5">
+<h2>Running the tests<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pytest
+</pre></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Usage<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h3>Code<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>Query Results can be scraped from popular search engines as shown in the example snippet below</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">search_engine_parser</span> <span class="kn">import</span> <span class="n">YahooSearch</span><span class="p">,</span> <span class="n">GoogleSearch</span><span class="p">,</span> <span class="n">BingSearch</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+
+<span class="n">search_args</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;preaching to the choir&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">gsearch</span> <span class="o">=</span> <span class="n">GoogleSearch</span><span class="p">()</span>
+<span class="n">ysearch</span> <span class="o">=</span> <span class="n">YahooSearch</span><span class="p">()</span>
+<span class="n">bsearch</span> <span class="o">=</span> <span class="n">BingSearch</span><span class="p">()</span>
+<span class="n">gresults</span> <span class="o">=</span> <span class="n">gsearch</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="o">*</span><span class="n">search_args</span><span class="p">)</span>
+<span class="n">yresults</span> <span class="o">=</span> <span class="n">ysearch</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="o">*</span><span class="n">search_args</span><span class="p">)</span>
+<span class="n">bresults</span> <span class="o">=</span> <span class="n">bsearch</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="o">*</span><span class="n">search_args</span><span class="p">)</span>
+<span class="n">a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Google&quot;</span><span class="p">:</span> <span class="n">gresults</span><span class="p">,</span>
+    <span class="s2">&quot;Yahoo&quot;</span><span class="p">:</span> <span class="n">yresults</span><span class="p">,</span>
+    <span class="s2">&quot;Bing&quot;</span><span class="p">:</span> <span class="n">bresults</span><span class="p">}</span>
+<span class="c1"># pretty print the result from each engine</span>
+<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">a</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;-------------{k}------------&quot;</span><span class="p">)</span>
+        <span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+
+<span class="c1"># print first title from google search</span>
+<span class="k">print</span><span class="p">(</span><span class="n">gresults</span><span class="p">[</span><span class="s2">&quot;titles&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1"># print 10th link from yahoo search</span>
+<span class="k">print</span><span class="p">(</span><span class="n">yresults</span><span class="p">[</span><span class="s2">&quot;links&quot;</span><span class="p">][</span><span class="mi">9</span><span class="p">])</span>
+<span class="c1"># print 6th description from bing search</span>
+<span class="k">print</span><span class="p">(</span><span class="n">bresults</span><span class="p">[</span><span class="s2">&quot;descriptions&quot;</span><span class="p">][</span><span class="mi">5</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id8">
+<h3>Command line<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>Use python module runner to run the parser on the command line e.g</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m search_engine_parser.core.cli --query <span class="s2">&quot;Preaching to the choir&quot;</span> --engine bing --type descriptions
+</pre></div>
+</div>
+<p>Result</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;Preaching to the choir&#39;</span> originated in the USA in the 1970s. It is a variant of the earlier <span class="s1">&#39;preaching to the converted&#39;</span>, which dates from England in the late 1800s and has the same meaning. Origin - the full story <span class="s1">&#39;Preaching to the choir&#39;</span> <span class="o">(</span>also sometimes spelled quire<span class="o">)</span> is of US origin.
+</pre></div>
+</div>
+<a class="reference external image-reference" href="assets/example.gif"><img alt="Demo" src="assets/example.gif" /></a>
+<p>Full arguments shown below</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>usage: cli.py <span class="o">[</span>-h<span class="o">]</span> <span class="o">[</span>-e ENGINE<span class="o">]</span> -q QUERY <span class="o">[</span>-p PAGE<span class="o">]</span> <span class="o">[</span>-t TYPE<span class="o">]</span> <span class="o">[</span>-r RANK<span class="o">]</span>
+
+SearchEngineParser
+
+optional arguments:
+-h, --help            show this <span class="nb">help</span> message and <span class="nb">exit</span>
+-e ENGINE, --engine ENGINE
+                        Engine to use <span class="k">for</span> parsing the query e.g yahoo
+                        <span class="o">(</span>default: google<span class="o">)</span>
+-q QUERY, --query QUERY
+                        Query string to search engine <span class="k">for</span>
+-p PAGE, --page PAGE  Page of the result to <span class="k">return</span> details <span class="k">for</span> <span class="o">(</span>default: <span class="m">1</span><span class="o">)</span>
+-t TYPE, --type TYPE  Type of detail to <span class="k">return</span> i.e links, desciptions or
+                        titles
+-r RANK, --rank RANK  Rank of detail in list to <span class="k">return</span> e.g <span class="m">5</span> <span class="o">(</span>default: <span class="m">0</span><span class="o">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id9">
+<h2>Contribution<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p>You are very welcome to modify and use them in your own projects.</p>
+<p>Please keep a link to the <a class="reference external" href="https://github.com/bisoncorps/search-engine-parser">original repository</a>. If you have made a fork with substantial modifications that you feel may be useful, then please <a class="reference external" href="https://github.com/bisoncorps/search-engine-parser/issues">open a new issue on GitHub</a> with a link and short description and then make a pull request.</p>
+</div>
+<div class="section" id="id10">
+<h2>License (MIT)<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p>This project is opened under the <a class="reference external" href="https://github.com/bisoncorps/search-engine-parser/blob/master/LICENSE">MIT 2.0 License</a> which allows very broad use for both academic and commercial purposes.</p>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Diretnan Domnan, Mmadu Manasseh
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
